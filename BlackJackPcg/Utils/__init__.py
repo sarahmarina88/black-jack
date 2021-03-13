@@ -1,5 +1,3 @@
-
-
 class CardUtils:
 
     @staticmethod
