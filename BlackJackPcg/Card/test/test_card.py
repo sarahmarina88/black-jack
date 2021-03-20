@@ -59,8 +59,12 @@ class TestCard(TestCase):
 #three steps: arrange, act, assert
 
     def test_get_colour_function(self):
+        #arrange
         c = Card(CardUtils.get_possible_suits()[0], CardUtils.get_possible_colors()[0], CardUtils.get_possible_numbers()[0])
+        #act
         colour = c.get_color()
+        #assert
+        main
         self.assertTrue(colour in CardUtils.get_possible_colors())
 
     def test_get_suit_function(self):
