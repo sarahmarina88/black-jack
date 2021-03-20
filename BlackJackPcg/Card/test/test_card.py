@@ -64,6 +64,7 @@ class TestCard(TestCase):
         #act
         colour = c.get_color()
         #assert
+        main
         self.assertTrue(colour in CardUtils.get_possible_colors())
 
     def test_get_suit_function(self):
